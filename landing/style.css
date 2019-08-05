@@ -137,6 +137,10 @@ i {
     display: none;
 }
 
+.contact2 {
+    display: none;
+}
+
 .social {
     flex: 1;
     display: flex;
@@ -195,6 +199,12 @@ h3 {
     .logo img {
         height: 100%;
     }
+    .social {
+        display: none;
+    }
+    .contact {
+        display: none;
+    }
     .secret {
         display: none;
     }
@@ -210,14 +220,14 @@ h3 {
     .dropdown-menu {
         background-color: #BA8748;
     }
-    .quicklink {
+    /* .quicklink {
         display: none;
-    }
+    } */
     .main {
         height: 100%;
     }
     .booknow {
-        display: none;
+        width: 100%;
     }
     .contact2 {
         padding-top: 20px;
@@ -233,6 +243,7 @@ h3 {
         display: flex;
         justify-content: space-around;
         align-items: center;
+        margin-bottom: 20px;
     }
     .social2 a {
         color: black;
